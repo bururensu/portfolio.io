@@ -1,0 +1,70 @@
+
+#allcontets{
+	margin: 0 auto;
+	padding: 0;
+	width: 1100px;
+	font-size: 1em;
+}
+
+
+
+#mainvisual{
+	margin: 125px 0;
+	background-image: url(../images/accessmain_bg.jpg);
+	background-repeat: no-repeat;
+	padding: 177px 550px ;
+	position: relative;
+}
+
+#mainvisual h2{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background-color:#fff;
+	font-weight: normal;
+	padding: 8px 60px;
+	border: solid 1px #656567;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1.2em;
+	margin: 0;
+}
+
+#access{
+	width: 440px;
+	margin: 0 0 150px 21px;
+    z-index: 2;
+    float: left;
+}
+
+#allcontets iframe{
+	float: right;
+	margin-top: 20px;
+
+}
+
+#access h3{
+	font-weight: normal;
+	border-bottom: solid 1px #656565;
+	font-size: 1.2em;
+	margin-bottom: 50px;
+}
+
+#access p{
+	margin-bottom: 55px;
+	line-height: 1.8em;
+}
+
+#access dt{
+	float: left;
+	margin-bottom: 60px;
+}
+
+#access dd{
+	margin-left: 200px;
+	margin-bottom: 60px;
+}
+
+
+
+

@@ -1,0 +1,141 @@
+body{
+	background-image: url(../images/background.png);
+	position: relative;
+	overflow: hidden;
+}
+
+#wrapper{
+	height: 100vh;
+}
+
+
+h1{
+	font-family: cortado,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 3em;
+	margin: 10px;
+}
+
+h1 a{
+	color: #000;
+}
+
+h2{
+	/* text-align: center; */
+	/* font-weight: 400;
+	font-style: normal;
+	font-size: 12em; */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-70%) translateX(-50%) rotate(-10deg);
+	/* -webkit- transform: translateY(-50%) translateX(-50%); */
+}
+
+ul{
+	display: flex;
+	justify-content: space-between;
+	width: 40%;
+	margin: 0 auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateY(300%) translateX(-50%) rotate(-5deg);
+}
+
+li a{
+	font-family: 'Fredericka the Great', cursive;
+	color: #000;
+	font-size: 2.5em;
+}
+
+li{
+	text-align: center;
+	/* margin: 0 100px; */
+}
+
+#paint_bg{
+	background-image: url(../images/paint_bg.png);
+	background-repeat: no-repeat;
+	width: 217px;
+	height: 176px;
+	position: absolute;
+	top: -2%;
+    right: 0%;
+}
+
+
+#color_bg{
+	background-image: url(../images/color_bg.png);
+	background-repeat: no-repeat;
+	width: 188px;
+	height: 134px;
+	position: absolute;
+	top: 25%;
+    right: 12%;
+}
+
+#eraser_bg{
+	background-image: url(../images/eraser_bg.png);
+	background-repeat: no-repeat;
+	width: 248px;
+	height: 211px;
+	position: absolute;
+	/* top: 60%; */
+	bottom: 7%;
+    left: 4%;
+}
+
+#red_bg{
+	background-image: url(../images/red_bg.png);
+	background-repeat: no-repeat;
+	width: 222px;
+	height: 303px;
+	position: absolute;
+	/* top: 50%; */
+	bottom: 0%;
+    right: 0%;
+}
+
+#bule_bg{
+	background-image: url(../images/bule_bg.png);
+	background-repeat: no-repeat;
+	width: 246px;
+	height: 235px;
+	position: absolute;
+	/* top: 67.5%; */
+	bottom: 0%;
+    right:  0%;
+}
+
+#orenge_bg{
+	background-image: url(../images/orenge_bg.png);
+	background-repeat: no-repeat;
+	width: 268px;
+	height: 163px;
+	position: absolute;
+	/* top: 80%; */
+	bottom: 0%;
+    right: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

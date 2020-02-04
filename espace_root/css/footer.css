@@ -1,0 +1,92 @@
+footer{
+	background-color: #dee4e5;
+	width: 99.3vw;
+    overflow: hidden; 
+	margin: 0 auto;
+	padding: 0 ;
+	height: 365px;
+}
+
+.footer_inner{
+	width: 909px;
+	margin: 0 auto;
+	padding: 0 ;
+	display: grid;
+	grid-template-columns: 303px 303px 303px;
+	grid-template-rows: 144px 120px 50px;
+}
+
+.footer_inner p{
+	line-height: 1em;
+}
+
+footer h3{
+	font-weight: normal;
+	font-size: 1.0em;
+	margin-bottom: 33px;
+}
+
+footer p{
+	font-size: 0.9em;
+}
+
+footer h2{
+	grid-column: 1/2;
+	grid-row: 1/2;
+	margin-top: 65px;
+}
+
+footer #info{
+	grid-column: 1/2;
+	grid-row: 2/3;
+}
+
+footer #opentime{
+	grid-column: 2/3;
+	grid-row: 2/3;
+}
+
+footer #reserve{
+	grid-column: 3/4;
+	grid-row: 2/3;
+	position: relative;
+}
+
+footer #reserve #call{
+	border: solid 1px #000;
+	width: 130px;
+	padding: 15px 120px 27px;
+}
+
+footer #reserve #call img{
+	float: left;
+	padding-right: 5px;
+	margin-top: -1.5px;
+}
+
+footer #reserve #call p{
+	float: left;
+	margin: 0 ;
+}
+
+footer .copyright{
+	grid-column: 1/4;
+	grid-row: 3/4;
+	font-size: 0.6em;
+	text-align: center;
+	margin: 55px 0 42px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,88 @@
+#allcontets{
+	margin: 0 auto;
+	padding: 0;
+	width: 1100px;
+}
+
+#allcontets p{
+	line-height: 2.3em;
+	letter-spacing: 0.1em;
+	font-size: 1em;
+	margin-top: 110px;
+}
+
+#mainvisual{
+	margin: 125px 0;
+	background-image: url(../images/aboutmain_bg.jpg);
+	background-repeat: no-repeat;
+	padding: 177px 550px;
+	position: relative;
+
+}
+
+#mainvisual h2{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background-color:#fff;
+	font-weight: normal;
+	padding: 8px 60px;
+	border: solid 1px #656567;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1.2em;
+	margin: 0;
+}
+
+#text1{
+	text-align: center;
+	background-image: url(../images/aboutsankaku_bg.gif);
+	background-repeat: no-repeat;
+	padding-bottom: 196px;
+	margin-bottom: 68px;
+	background-position: 100%;
+
+
+}
+
+#text2{
+	background-image: url(../images/aboutimage01.jpg);
+	background-repeat: no-repeat;
+	padding-bottom: 455px;
+	margin-bottom: 158px;
+	background-position: 100% 100%;
+}
+
+#text3{
+	text-align: right;
+	background-image: url(../images/aboutimage02.jpg);
+	background-repeat: no-repeat;
+	padding-bottom: 455px;
+	margin-bottom: 128px;
+	background-position: 0% 100%;
+}
+
+
+#gallery{
+    z-index: 1;
+}
+
+#gallery h3{
+	font-weight: normal;
+	margin-bottom: 35px;
+	border-bottom: solid 1px #656565;
+	padding-top: 125px;
+}
+
+#gallery ul {
+	list-style: none;
+	padding-inline-start: 0px;
+	width: 530px;
+	float: left;
+	margin-bottom: 80px;
+}
+
+#gallery p{
+	float: right;
+}
+

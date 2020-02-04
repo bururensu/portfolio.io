@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>espace about</title>
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/about.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<script src="js/jQuery-3.4.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<link href="js/slick-1.8.1/slick/slick-theme.css" rel="stylesheet" type="text/css">
+	<link href="js/slick-1.8.1/slick/slick.css" rel="stylesheet" type="text/css">
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="js/slick-1.8.1/slick/slick.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+	<h1><a href="index.html"><img src="images/espace_logo.gif" alt="espaceのロゴ"></a></h1>
+	<div id="navi">
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li><a href="menu.html">MENU</a></li>
+			<li><a href="access.html">ACCESS</a></li>
+		</ul>	
+	</div><!--navi-->
+</header><!-- /header -->
+<div id="allcontets">
+	<div id="mainvisual">
+		<h2>ABOUT</h2>
+	</div>
+	<div id="text1">
+		<p>「espace」とは、空間という意味があり、<br>お客様に居心地の良い空間（場所）であって欲しいとの願いから名づけました。</p>
+	</div>
+	<div id="text2">
+		<p>ヘアはもちろん、メイク、ネイル、スパなどが、<br>従来のサロンのプラスメニューとしてではなく、<br>個別コンテンツとして存在します。</p>
+	</div>
+	<div id="text3">
+		<p>それぞれのプロフェッショナルが、お客様を<br>トータルにプロデュースさせていただきます。</p>
+	</div>
+	<div id="gallery">
+		<h3><a name="gallery" id="gallery">Gallery</a></h3>
+		<ul class="slider">
+			<li><img src="images/aboutgallery00.jpg" alt="店先の様子"></li>
+			<li><img src="images/aboutgallery01.jpg" alt="店先のオブジェ"></li>
+			<li><img src="images/aboutgallery02.jpg" alt="店先に置かれた植物"></li>
+			<li><img src="images/aboutgallery03.jpg" alt="店内の小物"></li>
+		</ul>
+		<p>お店の様子をギャラリー形式でご紹介。<br>方々で見つけた小物をたくさんちりばめて、<br>お客様に楽しんでいただけたら幸いです。</p>
+	</div>
+</div>
+<script type="text/javascript" charset="utf-8">
+	$('.slider').slick({
+		autoplay:true,
+		autoplaySpeed:5000,
+		dots:true,
+	});
+</script>
+
+<footer>
+	<div class="footer_inner">
+		
+
+	<h2 class="logo"><a href="index.html"><img src="images/indexespacefooter_logo.gif" alt="espaceのロゴ"></a></h2>
+	<div id="info">
+		<h3>INFO</h3>
+		<p>&#12306;123-4567</p>
+		<p>大阪府大阪市梅田区123-45</p>
+	</div><!--info-->
+	<div id="opentime">
+		<h3>OPEN TIMES</h3>
+		<p>10:00~19:00</p>
+		<p>※月曜定休</p>
+	</div><!--opentime-->
+	<div id="reserve">
+		<h3>RESERVE</h3>
+		<div id="call">
+			<img src="images/indexcall_icon.gif" alt="電話番号">
+			<p>06-1234-5678</p>
+		</div>
+	</div><!--reserve-->
+	<p class="copyright">&copy;2020espaceALLRIGHTSRESERVED.</p>
+	</div>
+</footer>
+
+</body>
+</html>

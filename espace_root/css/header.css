@@ -1,0 +1,51 @@
+header{
+	margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-weight: normal;
+    position: fixed;
+    background-color: #fff;
+    width: 100vw; 
+    top: 0%;
+    z-index: 10;
+    overflow: hidden; 
+
+}
+
+header a{
+    text-decoration: none;
+}
+
+
+header ul{
+    list-style: none;
+    list-style-position: outside;
+}
+
+header h1{
+	float: left;
+	margin: 37px 0 0 57px;
+}
+
+header #navi{
+	background-image: url(../images/indexheaderline_bg.gif);
+	background-repeat: no-repeat;
+	width: 592px;
+	float: right;
+	margin: 37px 90px 32px 0;
+}
+
+header #navi {
+	text-align: right;
+
+}
+
+header #navi li {
+	display: inline;
+}
+
+header #navi li a{
+	padding: 0 23px;
+	color: #000;
+
+}

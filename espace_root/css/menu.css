@@ -1,0 +1,103 @@
+#allcontets{
+	margin: 0 auto;
+	padding: 0;
+	font-size: 0.9em;
+	width: 1000px;
+	overflow: hidden;
+}
+
+
+
+#mainvisual{
+	margin: 125px 0;
+	background-image: url(../images/espace-menu_bg.png);
+	background-repeat: no-repeat;
+	padding: 177px 520px ;
+	position: relative;
+	background-size: contain;
+}
+
+#mainvisual h2{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background-color:#fff;
+	font-weight: normal;
+	padding: 8px 60px;
+	border: solid 1px #656567;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1.2em;
+	margin: 0;
+
+}
+
+#allcontets h3{
+	font-weight: normal;
+	border-bottom: solid 1px #656565;
+	font-size: 1.3em;
+
+}
+
+#allcontets dt{
+	float: left;
+	clear: both;
+	margin-bottom: 35px;
+}
+
+#allcontets dd{
+	text-align: right;
+	margin-bottom: 35px;
+}
+
+#menu{
+	display: grid;
+	grid-template-columns: 500px 400px;
+	grid-template-rows: 320px 282px;
+	margin: 0 auto 169px auto;
+}
+
+#hair{
+	grid-row: 1/2;
+	grid-column: 1/2;
+	margin-right: 100px;
+}
+
+#relaxation{
+	grid-row: 1/2;
+	grid-column: 2/3;
+}
+
+.img{
+	grid-row: 2/3;
+	grid-column: 1/2;
+	margin: 0 auto;
+}
+
+#handeye{
+	grid-row: 2/3;
+	grid-column: 2/3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
