@@ -1,0 +1,58 @@
+/* body{
+	background-image: url(../images/background.png);
+	position: relative;
+	overflow: hidden;
+	width: 100vw;
+} */
+
+/* p{
+	font-family: dnp-shuei-gothic-gin-std, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+} */
+
+#contact{
+	background-image: url(../images/background.png);
+	width: 100vw;
+	height: 100vh;
+}
+
+#contact h2{
+	font-family: dnp-shuei-gothic-gin-std, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.2em;
+	margin-bottom: 10px;
+	color: black;
+}
+
+#contact h3{
+	font-family: dnp-shuei-gothic-gin-std, sans-serif;
+	font-weight: 400;
+	font-style: normal;	
+}
+
+/* a{
+	color: #000;
+} */
+
+#contact #all_contets{
+	margin: 0 auto;
+	width: 1100px;
+}
+
+#contact #all_contets iframe{
+	float: left;
+	margin: 70px 0;
+}
+
+#all_contets #contets{
+	float: left;
+	width: 500px;
+	height: 400px;
+	margin: 40px 20px;
+	padding: 80px 0 0 20px;
+	background-image: url(../images/contact_bg.png);
+	background-repeat: no-repeat;
+	line-height: 1.8em;
+}

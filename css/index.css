@@ -2,10 +2,13 @@ body{
 	background-image: url(../images/background.png);
 	position: relative;
 	overflow: hidden;
+	width: 100vw;
+
 }
 
-#wrapper{
+#index{
 	height: 100vh;
+	background-image: url(../images/background.png);
 }
 
 
@@ -14,14 +17,30 @@ h1{
 	font-weight: 400;
 	font-style: normal;
 	font-size: 3em;
-	margin: 10px;
-}
-
-h1 a{
+	margin:20px;
 	color: #000;
 }
 
-h2{
+h1 :hover{
+	color: #000;
+}
+
+h3{
+	color: black;
+}
+
+a{
+	color: #000;
+}
+
+p{
+	font-family: dnp-shuei-gothic-gin-std, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: black;
+}
+
+#index h2{
 	/* text-align: center; */
 	/* font-weight: 400;
 	font-style: normal;
@@ -33,9 +52,9 @@ h2{
 	/* -webkit- transform: translateY(-50%) translateX(-50%); */
 }
 
-ul{
+#index ul{
 	display: flex;
-	justify-content: space-between;
+	justify-content:flex-end;
 	width: 40%;
 	margin: 0 auto;
 	position: absolute;
@@ -44,18 +63,22 @@ ul{
 	transform: translateY(300%) translateX(-50%) rotate(-5deg);
 }
 
-li a{
+#index li a{
 	font-family: 'Fredericka the Great', cursive;
 	color: #000;
 	font-size: 2.5em;
 }
 
-li{
+#index li{
 	text-align: center;
 	/* margin: 0 100px; */
 }
 
-#paint_bg{
+#index li :hover .profile{
+	background:rgba(0, 0, 0,0) linear-gradient(transparent 60%, #f12027 0%) repeat scroll 0 0;
+}
+
+#index #paint_bg{
 	background-image: url(../images/paint_bg.png);
 	background-repeat: no-repeat;
 	width: 217px;
@@ -66,7 +89,7 @@ li{
 }
 
 
-#color_bg{
+#index #color_bg{
 	background-image: url(../images/color_bg.png);
 	background-repeat: no-repeat;
 	width: 188px;
@@ -76,7 +99,7 @@ li{
     right: 12%;
 }
 
-#eraser_bg{
+#index #eraser_bg{
 	background-image: url(../images/eraser_bg.png);
 	background-repeat: no-repeat;
 	width: 248px;
@@ -87,7 +110,7 @@ li{
     left: 4%;
 }
 
-#red_bg{
+#index #red_bg{
 	background-image: url(../images/red_bg.png);
 	background-repeat: no-repeat;
 	width: 222px;
@@ -98,7 +121,7 @@ li{
     right: 0%;
 }
 
-#bule_bg{
+#index #bule_bg{
 	background-image: url(../images/bule_bg.png);
 	background-repeat: no-repeat;
 	width: 246px;
@@ -109,7 +132,7 @@ li{
     right:  0%;
 }
 
-#orenge_bg{
+#index #orenge_bg{
 	background-image: url(../images/orenge_bg.png);
 	background-repeat: no-repeat;
 	width: 268px;

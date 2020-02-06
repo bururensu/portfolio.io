@@ -1,108 +1,75 @@
-body{
+/* body{
 	background-image: url(../images/background.png);
 	position: relative;
 	overflow: hidden;
 	width: 100vw;
+} */
+
+#work{
+	background-image: url(../images/background.png);
+
 }
 
-p{
-	font-family: dnp-shuei-gothic-gin-std, sans-serif;
-	font-weight: 400;
-	font-style: normal;
-}
-
-h2{
-	font-family: dnp-shuei-gothic-gin-std, sans-serif;
-	font-weight: 400;
-	font-style: normal;	
-}
-
-h3{
+#work h2{
 	font-family: dnp-shuei-gothic-gin-std, sans-serif;
 	font-weight: 400;
 	font-style: normal;	
 }
 
-a{
-	color: #000;
+#work h3{
+	font-family: dnp-shuei-gothic-gin-std, sans-serif;
+	font-weight: 400;
+	font-style: normal;	
 }
 
-#all_contets{
+
+#work #all_contets{
 	width: 100vw;
 	height: 100vh;
 	margin: 0 auto;
 }
 
-#all_contets h3{
+#work #all_contets h3{
 	font-size: 1.2em;
 }
 
-#all_contets p{
+#work #all_contets p{
 	line-height: 1.5em;
 	width: 98%;
 }
 
-#all_contets .site{
+#work #all_contets .site{
 	text-align: right;
 	font-size: 1.2em;
 	margin-top: 10px;
 }
 
-#all_contets .site span{
+#work #all_contets .site span{
 	background:rgba(0, 0, 0,0) linear-gradient(transparent 60%, #5C5393 0%) repeat scroll 0 0;
-
 }
 
-#contets_left{
+#work #contets_left{
 	width: calc(50% - 20px);
 	float: left;
 	margin: 0 10px;
 }
 
-#contets_left img{
+#work #contets_left img{
 	width: 90%;
 	background-image: url(../images/background_bg.png);
 	background-repeat: no-repeat;
 	padding: 70px 20px 30px 20px;
 }
 
-#contets_right{
-	width: 50%;
+#work #contets_right{
+	width: calc(50% - 20px);
 	float: right;
 	margin: 0 auto;
 }
 
-#contets_right img{
+#work #contets_right img{
 	width: 90%;
 	background-image: url(../images/background_bg.png);
 	background-repeat: no-repeat;
 	padding: 70px 20px 30px 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

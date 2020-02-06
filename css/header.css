@@ -7,22 +7,34 @@ header h1{
 	float: left;
 }
 
-#navi ul{
+header #navi ul{
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-end;
 	width: 50%;
 	float: right;
     margin-top: 30px;
     margin-right: 15px;
 }
 
-#navi li a{
+header #navi li a{
 	font-family: 'Fredericka the Great', cursive;
 	color: #000;
 	font-size: 2.5em;
 	margin-right: 30px;
 }
 
-header a{
-	color: #000;
+header #navi li :hover .home{
+	background:rgba(0, 0, 0,0) linear-gradient(transparent 60%, #5C5393 0%) repeat scroll 0 0;
+}
+
+header #navi li :hover .profile{
+	background:rgba(0, 0, 0,0) linear-gradient(transparent 60%, #f12027 0%) repeat scroll 0 0;
+}
+
+header #navi li :hover .work{
+	background:rgba(0, 0, 0,0) linear-gradient(transparent 60%, #5840ca 0%) repeat scroll 0 0;
+}
+
+header #navi li :hover .contact{
+	background:rgba(0, 0, 0,0) linear-gradient(transparent 60%, #e23307 0%) repeat scroll 0 0;
 }

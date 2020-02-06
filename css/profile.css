@@ -1,51 +1,59 @@
-body{
+/* body{
 	background-image: url(../images/background.png);
 	position: relative;
 	overflow: hidden;
 	width: 100vw;
-}
+} */
 
-a{
+/* a{
 	color: #000;
-}
+} */
 
-p{
+ #profile p{
 	font-family: dnp-shuei-gothic-gin-std, sans-serif;
 	font-weight: 400;
 	font-style: normal;
-}
+	color: #000;
+} 
 
-h2{
+#profile h2{
 	font-family: dnp-shuei-gothic-gin-std, sans-serif;
 	font-weight: 400;
 	font-style: normal;	
+	color: black;
+}
+
+#profile{
+	background-image: url(../images/background.png);
 }
 
 
-
-#face{
+#profile #face{
 	float: left;
 	clear: both;
-	margin: 33px 60px 65px 23px;
+	margin: 33px 20px 65px 23px;
 }
 
-#face p{
+#profile #face p{
 	text-align: center;
 	font-size: 1.2em;
 	line-height: 1.4em;
 	margin-top: 5px;
 }
 
-#skill{
-	width: 937px;
+#profile #skill{
+	width: 1150px;
+	height: 360px;
 	background-image: url(../images/paper_top.png);
+	background-size: cover;
+	background-repeat: no-repeat;
 	float: left;
-	padding: 48px 100px 20px 15px ;
+	padding: 90px 0px 0px 80px;
 	line-height: 1.7em;
-	margin: 30px 0 20px 0;
+	margin: -16px;
 }
-
-#skill #maskingrigth_bg{
+/* 
+#profile #skill #maskingrigth_bg{
 	background-image: url(../images/maskingright_bg.png);
 	background-repeat: no-repeat;
 	width: 160px;
@@ -55,7 +63,7 @@ h2{
 	top: 13%;
 }
 
-#skill #maskingleft_bg{
+#profile #skill #maskingleft_bg{
 	background-image: url(../images/maskingleft_bg.png);
 	background-repeat: no-repeat;
 	width: 166px;
@@ -63,41 +71,43 @@ h2{
 	position: absolute;
 	left: 17%;
 	top: 10%;
-}
+} */
 
-#skill h2{
+#profile #skill h2{
 	font-size: 1.3em;
 	margin-bottom: 5px;
 }
 
-#skill p{
+#profile #skill p{
 	font-size: 1em;
 	margin-bottom: 10px;
 
 }
 
 
-#skill ul{
+#profile #skill ul{
 	display: flex;
 	justify-content: space-between;
 	width: 27%;
 	margin-bottom: 10px;
 }
 
-#summary{
+#profile #summary{
 	clear: both;
-	width: 1200px;
-	margin: 0 auto;
+	width: 1366px;
+	height: 200px;
+	margin: 0px auto;
 	background-image: url(../images/paper_bottom.png);
-	padding: 25px 53px ;
+	background-repeat: no-repeat;
+	padding: 80px 0px 0 50px;
 }
 
-#summary p{
-	font-size: 1.1em;
+#profile #summary p{
+	font-size: 1em;
 	line-height: 1.7em;
 }
-
-#summary #maskingbottomrigth_bg{
+/* 
+#profile #summary #maskingbottomrigth_bg{
 	background-image: url(../images/maskingright_bg.png);
 	background-repeat: no-repeat;
 	width: 160px;
@@ -107,7 +117,7 @@ h2{
 	bottom: 15%;
 }
 
-#summary #maskingbottomleft_bg{
+#profile #summary #maskingbottomleft_bg{
 	background-image: url(../images/maskingleft_bg.png);
 	background-repeat: no-repeat;
 	width: 166px;
@@ -115,24 +125,4 @@ h2{
 	position: absolute;
 	left: -2%;
 	bottom: 15%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+} */
