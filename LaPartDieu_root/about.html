@@ -6,11 +6,78 @@
 	<link rel="stylesheet" type="text/css" href="css/header.css">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
 	<link rel="stylesheet" type="text/css" href="css/about.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css"><!--追記-->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<script src="js/jQuery-3.4.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<link href="js/slick-1.8.1/slick/slick-theme.css" rel="stylesheet" type="text/css">
+	<link href="js/slick-1.8.1/slick/slick.css" rel="stylesheet" type="text/css">
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="js/slick-1.8.1/slick/slick.min.js"></script>
+	<script type="text/javascript" src="js/bgSwitcher.js"></script>
+
 	<link href="https://fonts.googleapis.com/css?family=Cookie|Noto+Serif+JP&display=swap" rel="stylesheet">
 </head>
 <body>
 	<header>
 		<h1><a href="index.html"><img src="images/rogoheader.gif" alt="LaPartDieu"></a></h1>
+		<!-- <div class="inner clearfix">
+			<div id="nav_toggle">
+			  <div>
+				<span></span>
+				<span></span>
+				<span></span>
+			  </div>
+			</div>
+			<nav>
+			  <ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="menu.html">Menu</a></li>
+				<li><a href="access.html">Access</a></li>
+				<li><a href="#">MENU5</a></li>
+			  </ul>
+			</nav>
+		  </div> -->
+		  <div id="spHeader">
+			<a class="menu">
+				<span class="menu__line menu__line--top"></span>
+				<span class="menu__line menu__line--center"></span>
+				<span class="menu__line menu__line--bottom"></span>
+			</a>
+			<nav class="gnav">
+				<div class="gnav__wrap">
+					<ul class="gnav__menu">
+						<li class="gnav__menu__item"><a href="index.html">Home</a></li>
+						<li class="gnav__menu__item"><a href="about.html">About</a></li>
+						<li class="gnav__menu__item"><a href="menu.htmk">Menu</a></li>
+						<li class="gnav__menu__item"><a href="access.html">Access</a></li>
+						<li class="gnav__menu__item"><a href="https://www.facebook.com/lapartdieu.kyoto/" target="_blank"><img src="images/icon.gif" alt="Facebook"></a></li>
+					</ul>
+					<div id="spContact">
+						<div id="spInter">
+							<p>■＊■ インターネットからのご予約 ■＊■</p>
+							<p>-外部サイトへアクセスします-</p>
+							<ul>
+								<li><button class="hitosara" type="submit" onclick="window.open('https://hitosara.com/0006086840/')">ヒトサラ</button></li>
+								<li><button class="ikyu" type="submit" onclick="window.open('https://restaurant.ikyu.com/101183/')">一休.com</button></li>
+							</ul>		
+						</div><!-- /spinter-->
+						<div id="spTel">
+							<p>■＊■ お電話からのご予約 ■＊■</p>
+							<ul>
+								<li><button class="reservation_tel" type="submit"><span>予約専用</span> 050-5232-4429</button></li>
+								<li><button class="contact_tel" type="submit"><span>お問い合わせ</span> 075-711-7643</button></li>
+							</ul>
+						</div><!--spInter-->
+					</div><!--spContact-->
+				</div><!--gnav-wrap-->
+			</nav>
+			<div class="hero">
+				<h1 class="heroCopy"><img src="images/about_txt_03.png"></h1>
+			</div>
+			<div class="heroLogo"></div>
+
+		  </div><!--spHeader-->
 		<ul>
 			<li><a href="index.html">Home</a></li>
 			<li><a href="about.html">About</a></li>
@@ -19,6 +86,7 @@
 			<span class="facebook"><li><a href="https://www.facebook.com/lapartdieu.kyoto/" target="_blank"><img src="images/icon.gif" alt="Facebook"></a></li></span>
 		</ul>	
 	</header><!-- /header -->
+
 	<div id="all_contents">
 
 		<h2><img src="images/aboutmainvisual.jpg" alt="mainvisual"></h2>
@@ -32,11 +100,11 @@
 		</div><!-- /contents1-->
 
 		<div id="contents2">
+			<img src="images/about_02.jpg" alt="内装">	
 			<div id="contents2_txt">
 			<span>美味しい時間に笑みが湛え、<br>リラックスした時間を過ごせるサロン</span>
 			<p><br>高級感が漂いつつも肩肘を張ることなく、<br>自分のペースでゆったりとした時間を愉しむことができる上質な空間今宵もまた、美しくセッティングされたWEDGWOODの器が出迎えてくれます</p>
 			</div><!-- /contents2_txt-->
-			<img src="images/about_02.jpg" alt="内装">	
 		</div><!-- /contents1-->
 
 		<div id="contents3">
@@ -48,11 +116,11 @@
 		</div><!-- /contents3-->
 
 		<div id="contents4">
+			<img src="images/about_04.jpg" alt="シーン">
 			<div id="contents4_txt">
 			<span>大切な人との会話に花が咲く、<br>美味しく、愛おしく感じられるひと時</span>
 			<p><br>ゆったりとした時間を過ごせるエレガンスさがあるお店洗練されたおしゃれさと美味しい逸品を満喫できる、人気のフランス料理店</p>
 			</div><!-- /contents4_txt-->
-			<img src="images/about_04.jpg" alt="シーン">
 		</div><!-- /contents4-->
 
 	</div><!-- /all_contents-->
@@ -96,5 +164,52 @@
 
 	<p class="copyright">&copy;2019halosaka.comAllRightsReserved</p>
 </footer>
+<script type="text/javascript">
+
+	//firstViewのスライドは一旦非適応（htmlも非適応化）
+	/*firstview*/
+	// console.log("test");
+	// $('.slider').slick({
+	//     autoplay:true,
+	//     autoplaySpeed:2000,
+	//     fade:true,
+	// });
+	// function fadeout(){
+	// 	$(".firstview").fadeOut(1000,function(){
+	// 		console.log('消えたよ！');
+	// 	});
+	// } 
+	// time = setTimeout(fadeout,3200);
+
+	/*mainvisual*/
+	$('.mainvisual').slick({
+		autoplay:true,
+		autoplaySpeed:4000,
+		speed:1800,
+		fade:true,
+	});
+	
+	//ハンバーガー海兵
+	console.log("menu")
+	$('#spHeader .menu').on('click',function(){
+		$('#spHeader .menu__line').toggleClass('active');
+		$('#spHeader .gnav').fadeToggle();
+	});
+	//spHeader背景画像スライド
+	// jQuery(function($) {
+	// 	$('#spHeader .hero').bgSwitcher({
+	// 		images: [
+	// 			'images/mainvisual.jpg',
+	// 			'images/firstview_01_sp.jpg',
+	// 			'images/firstview_02_sp.jpg',
+	// 			'images/firstview_03_sp.jpg',
+	// 			'images/firstview_04_sp.jpg'
+	// 		], // 切り替える背景画像を指定
+	// 	});
+	// });
+
+</script>
+
+
 </body>
 </html>

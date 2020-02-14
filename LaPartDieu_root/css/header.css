@@ -1,6 +1,7 @@
 header{
 	height: 85px;
-	background-color: #165330;
+	/* background-color: #165330; */
+	background: rgba(22, 83, 48, 1);
 	font-size: 14px;
 	position: fixed;
 	z-index: 1;
@@ -32,8 +33,9 @@ header li{
 }
 
 .facebook{
-	margin-right: 73px;
 	float: right;
+	margin-right: 5em;
+	
 }
 
 
