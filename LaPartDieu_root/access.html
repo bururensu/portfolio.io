@@ -7,18 +7,69 @@
 	<link rel="stylesheet" type="text/css" href="css/header.css">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
 	<link href="https://fonts.googleapis.com/css?family=Cookie|Noto+Serif+JP&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/common.css"><!--追記-->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<script src="js/jQuery-3.4.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<link href="js/slick-1.8.1/slick/slick-theme.css" rel="stylesheet" type="text/css">
+	<link href="js/slick-1.8.1/slick/slick.css" rel="stylesheet" type="text/css">
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="js/slick-1.8.1/slick/slick.min.js"></script>
+	<script type="text/javascript" src="js/bgSwitcher.js"></script>
+
 </head>
 <body>
 	<header>
 		<h1><a href="index.html"><img src="images/rogoheader.gif" alt="LaPartDieu"></a></h1>
+
+		<div id="spHeader">
+			<a class="menu">
+				<span class="menu__line menu__line--top"></span>
+				<span class="menu__line menu__line--center"></span>
+				<span class="menu__line menu__line--bottom"></span>
+			</a>
+			<nav class="gnav">
+				<div class="gnav__wrap">
+					<ul class="gnav__menu">
+						<li class="gnav__menu__item"><a href="index.html">Home</a></li>
+						<li class="gnav__menu__item"><a href="about.html">About</a></li>
+						<li class="gnav__menu__item"><a href="menu.html">Menu</a></li>
+						<li class="gnav__menu__item"><a href="access.html">Access</a></li>
+						<li class="gnav__menu__item"><a href="https://www.facebook.com/lapartdieu.kyoto/" target="_blank"><img src="images/icon.gif" alt="Facebook"></a></li>
+					</ul>
+					<div id="spContact">
+						<div id="spInter">
+							<p>■＊■ インターネットからのご予約 ■＊■</p>
+							<p>-外部サイトへアクセスします-</p>
+							<ul>
+								<li><button class="hitosara" type="submit" onclick="window.open('https://hitosara.com/0006086840/')">ヒトサラ</button></li>
+								<li><button class="ikyu" type="submit" onclick="window.open('https://restaurant.ikyu.com/101183/')">一休.com</button></li>
+							</ul>
+						</div><!-- /spinter-->
+						<div id="spTel">
+							<p>■＊■ お電話からのご予約 ■＊■</p>
+							<ul>
+								<li><button class="reservation_tel" type="submit"><span>予約専用</span> 050-5232-4429</button></li>
+								<li><button class="contact_tel" type="submit"><span>お問い合わせ</span> 075-711-7643</button></li>
+							</ul>
+						</div><!--spInter-->
+					</div><!--spContact-->
+				</div><!--gnav-wrap-->
+			</nav>
+			<div class="hero">
+				<h1 class="heroCopy"><img src="images/access_txt.png"></h1>
+			</div>
+			<div class="heroLogo"></div>
+
+			</div><!--spHeader-->
 		<ul>
 			<li><a href="index.html">Home</a></li>
 			<li><a href="about.html">About</a></li>
 			<li><a href="menu.html">Menu</a></li>
 			<li><a href="access.html">Access</a></li>
 			<span class="facebook"><li><a href="https://www.facebook.com/lapartdieu.kyoto/" target="_blank"><img src="images/icon.gif" alt="Facebook"></a></li></span>
-		</ul>	
+		</ul>
 	</header><!-- /header -->
+<div id="all_contents">
 	<h2><img src="images/access_mainvisual.jpg" alt="mainvsual"></h2>
 	<div id="contents">
 		<table>
@@ -49,6 +100,7 @@
 		</table>
 		<iframe src="https://www.google.com/maps/d/embed?mid=1lnmr98_mhuCR7mLPGhYKWRziJsV136sV&hl=ja" ></iframe>
 	</div><!--contents-->
+</div><!--all_contents-->
 <footer>
 	<div id="footer_left">
 		<h1><a href="index.html"><img src="images/rogofooter.gif" alt="rogo"></a></h1>
@@ -70,7 +122,7 @@
 				<li><button class="ikyu" type="submit" onclick="window.open('https://restaurant.ikyu.com/101183/')">一休.com</button></li>
 			</ul>
 			</form>
-			<p>※外部サイトにとびます</p>		
+			<p>※外部サイトにとびます</p>
 		</div><!-- /internet-->
 
 		<div id="tel">
@@ -85,5 +137,18 @@
 
 	<p class="copyright">&copy;2019halosaka.comAllRightsReserved</p>
 </footer>
+<script type="text/javascript">
+
+	//ハンバーガー海兵
+	console.log("menu")
+	$('#spHeader .menu').on('click',function(){
+		$('#spHeader .menu__line').toggleClass('active');
+		$('#spHeader .gnav').fadeToggle();
+	});
+
+
+</script>
+
+
 </body>
 </html>

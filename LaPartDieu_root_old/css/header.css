@@ -1,0 +1,55 @@
+header{
+	height: 85px;
+	background-color: #165330;
+	font-size: 14px;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	overflow: hidden;
+}
+
+header a{
+	text-decoration: none;
+}
+
+header h1{
+	margin: 25px 0 0 50px;
+	float: left;
+}
+
+header ul a{
+	color: #fff;
+	margin: 30px 0 0 105px;
+	display: flex;
+
+}
+
+header li{
+	float: left;
+	list-style-type: none;
+	list-style-position: outside;
+	font-family: 'Cookie', cursive;
+	font-size: 2em;
+}
+
+.facebook{
+	float: right;
+	margin-right: 3em;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

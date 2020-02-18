@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="ja">
+<meta charset="UTF-8" />
+<head>
+	<title>LaPartDieu menu</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1"><!--追記-->
+	<link rel="stylesheet" type="text/css" href="css/common.css"><!--追記-->
+	<link rel="stylesheet" type="text/css" href="css/menu.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<link href="https://fonts.googleapis.com/css?family=Cookie|Noto+Serif+JP&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="js/jquery.fatNav.css">
+	<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+	<script src="js/jQuery-3.4.1.min.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+<body>
+	<div id="hamburger">
+		<div class="fat-nav">
+		<div class="fat-nav__wrapper">
+		<h1><a href="index.html"><img src="images/rogo.png" alt="LaPartDieu"></a></h1>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="menu.html">Menu</a></li>
+			<li><a href="access.html">Access</a></li>
+			<!-- <span class="facebook"><li><a href="https://www.facebook.com/lapartdieu.kyoto/" target="_blank"><img src="images/icon.gif" alt="Facebook"></a></li></span> -->
+		</ul>
+	
+
+		<p class="reservation">《ご予約はこちら》</p>
+
+		<div id="internet">
+			<p>インターネットからのご予約</p>
+			<p>※外部サイトにとびます</p>		
+			<form>
+				<button class="hitosara" type="submit" onclick="window.open('https://hitosara.com/0006086840/')">ヒトサラ</button>
+				<button class="ikyu" type="submit" onclick="window.open('https://restaurant.ikyu.com/101183/')">一休.com</button>
+			</form>
+		</div><!-- /internet-->
+
+		<div id="tel">
+			<p>お電話からのご予約</p>
+			
+			<button class="reservation_tel" type="submit">予約専用 050-5232-4429</button>
+			<button class="contact_tel" type="submit">お問い合わせ 075-711-7643</button>
+			
+
+		</div><!-- /tel-->
+	</div><!--fat-nav__wrapper-->
+</div><!--fat-nav-->
+
+	</div><!--hamburger-->
+
+	<header>
+		<h1><a href="index.html"><img src="images/rogoheader.gif" alt="LaPartDieu"></a></h1>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="menu.html">Menu</a></li>
+			<li><a href="access.html">Access</a></li>
+			<span class="facebook"><li><a href="https://www.facebook.com/lapartdieu.kyoto/" target="_blank"><img src="images/icon.gif" alt="Facebook"></a></li></span>
+		</ul>	
+	</header><!-- /header -->
+
+	<h2><img src="images/menu_mainvisual.jpg" alt="mainvisual"></h2>
+
+	<div id="contents_lunch">
+
+		<div id="lunchcourse">
+			<h3>LUNCHCOURSE</h3>
+			<p>お昼から贅沢に<br>
+			大切な方との接待に</p>			
+		</div><!-- /lunchcoures-->
+		<ul>
+			<li>
+				<div id="lunchmenu1">
+        			<a class="js-modal-open" href="" data-target="modal01">
+	        			<img src="images/lunchmenu_01.jpg" alt="季節のコース">
+						<h4>―季節のコース―</h4>
+						<p>四季折々の食材をお愉しみ頂けるフレンチで素敵なランチタイムを</p>
+					</a>			
+				</div><!-- /lunchmenu1-->
+			</li>
+			<li>
+				<div id="lunchmenu2">		
+        			<a class="js-modal-open" href="" data-target="modal02">
+						<img src="images/lunchmenu_02.jpg" alt="年末年始コース">
+						<h4>―年末年始コース―</h4>
+						<p>年の締めくくりと始まりに相応しい食材を味わえる至福のひと時に</p>
+					</a>
+				</div><!-- /lunchmenu2-->
+			</li>
+			<li>
+				<div id="lunchmenu3">		
+        			<a class="js-modal-open" href="" data-target="modal03">
+						<img src="images/lunchmenu_03.jpg" alt="年末年始特別コース">
+						<h4>―年末年始特別コース―</h4>
+						<p>年の締めくくりと始まり相応しい食材を使用したお料理をご堪能</p>	
+					</a>
+				</div><!-- /lunchmenu3-->
+			</li>
+		</ul>
+	</div><!-- /contents_lunch-->
+
+
+	<div id="contents_dinner">
+
+		<div id="dinnercourse">
+			<h3>DINNERCOURSE</h3>
+			<p>味わうごとに感動があるお料理の数々<br>
+			本格フランス料理のフルコース</p>
+		</div>
+		<ul>
+			<li>
+				<div id="dinnermenu1">
+        			<a class="js-modal-open" href="" data-target="modal04">
+						<img src="images/dinnermenu_01.jpg" alt="珠玉の六皿">
+						<h4>―珠玉の六皿―</h4>
+						<p>京都の野菜、丹後のお魚をはじめ日本、フランスの美味しい食材をご堪能</p>
+					</a>
+				</div><!-- /dinnermenu1-->
+			</li>
+			<li>
+				<div id="dinnermenu2">
+        			<a class="js-modal-open" href="" data-target="modal05">
+						<img src="images/dinnermenu_02.jpg" alt="Xmas2019">
+						<h4>―Xmas2019―</h4>
+						<p>聖なる夜にお愉しみ頂ける<br>クリスマス特別ディナー<br>～Menu Plaisir ～</p>
+					</a>
+				</div><!-- /dinnermenu2-->
+			</li>
+			<li>
+				<div id="dinnermenu3">
+        			<a class="js-modal-open" href=""  data-target="modal06">
+						<img src="images/dinnermenu_03.jpg" alt="年末年始特別コース">
+						<h4>―年末年始特別コース―</h4>
+						<p>年の締めくくりと始まり相応しい食材を使用したお料理をご堪能</p>
+					</a>
+				</div><!-- /dinnermenu3-->
+			</li>
+		</ul>
+	</div><!--contents_dinner-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+<script src="js/jquery.fatNav.js"></script>
+<script>$(function() {
+    $.fatNav();
+});
+</script>
+	<!--ここからモーダルウィンドウ-->
+	<div id="modal01" class="modal js-modal">
+		<div class="modal__bg js-modal-close"></div><!--背景によるクリックで閉じる用-->
+		<div class="modal__content">
+    		<img id="item1" src="images/lunchmenu_01.jpg" alt="季節のコース">
+			<div id="item2">
+	    		<p><img src="images/plan_lunch.gif" alt="ランチ"></p>
+	    		<h4><span>季節のコース</span><br>
+	    		四季折々の食材をお愉しみ頂けるフレンチで素敵なランチタイムを</h4>
+	    		<p class="reservation">予約する</p>
+				<button type="submit" onclick="window.open('https://hitosara.com/0006086840/')">ヒトサラ</button>
+				<button type="submit" onclick="window.open('https://restaurant.ikyu.com/101183/')">一休.com</button>
+				<span class="price">税込8,800円/人</span>
+			</div>
+			<div id="item4">
+	    		<p>＜ある日の一例＞</p>
+	    		<ul>
+	    			<li>本日のアミューズ</li>
+					<li>野菜や花、野草のサラダ 本日の魚介類と</li>
+					<li>温かい前菜</li>
+					<li>本日のお魚をフランスのエスプリで</li>
+					<li>本日のお肉料理をお選びいただきます。</li>
+					<li>エレガントな季節のデザート<br>又は<br>フランスの大地の香りチーズのプラトーミニャルディーズ</li>
+	    		</ul>
+	    		<p>※メニューは仕入状況等により変更となる場合がございます。予めご了承ください。</p>
+			</div>
+			<div id="item6">
+	    		<p>京都の野菜、丹後のお魚をはじめ日本、フランスの美味しい食材を、あふれる香とともに、美しい六皿に仕上げております。		</p>
+	    		<p>利用可能人数）１名～4名</p>
+			</div>
+    		<a class="js-modal-close" href="" id="item2"><img src="images/close.gif" alt="閉じる"></a>
+		</div><!--modal__content-->
+	</div><!--modal-->
+
+	<div id="modal02" class="modal js-modal">
+		<div class="modal__bg js-modal-close"></div><!--背景によるクリックで閉じる用-->
+		<div class="modal__content">
+    		<img id="item1" src="images/lunchmenu_02.jpg" alt="年末年始コース">
+			<div id="item2">
+	    		<p><img src="images/plan_lunch.gif" alt="ランチ"></p>
+	    		<h4><span>年末年始コース</span><br>年の締めくくりと始まりに相応しい食材を味わえる至福のひと時に</h4>
+	    		<p class="reservation">予約する</p>
+				<button type="submit" onclick="window.open('https://hitosara.com/0006086840/')">ヒトサラ</button>
+				<button type="submit" onclick="window.open('https://restaurant.ikyu.com/101183/')">一休.com</button>
+				<span class="price">税込8,800円/人</span>
+			</div>
+			<div id="item4">
+	    		<p>＜ある日の一例＞</p>
+	    		<ul>
+	    			<li>本日のアミューズ</li>
+					<li>野菜や花、野草のサラダ 本日の魚介類と</li>
+					<li>温かい前菜</li>
+					<li>本日のお魚をフランスのエスプリで</li>
+					<li>本日のお肉料理をお選びいただきます。</li>
+					<li>エレガントな季節のデザート<br>又は<br>フランスの大地の香りチーズのプラトーミニャルディーズ</li>
+	    		</ul>
+	    		<p>※メニューは仕入状況等により変更となる場合がございます。予めご了承ください。</p>
+			</div>
+			<div id="item6">
+	    		<p>京都の野菜、丹後のお魚をはじめ日本、フランスの美味しい食材を、あふれる香とともに、美しい六皿に仕上げております。		</p>
+	    		<p>利用可能人数）１名～4名</p>
+			</div>
+    		<a class="js-modal-close" href="" id="item2"><img src="images/close.gif" alt="閉じる"></a>
+		</div><!--modal__content-->
+	</div><!--modal-->
+
+	<div id="modal03" class="modal js-modal">
+		<div class="modal__bg js-modal-close"></div><!--背景によるクリックで閉じる用-->
+		<div class="modal__content">
+    		<img id="item1" src="images/lunchmenu_03.jpg" alt="年末年始特別コース">
+			<div id="item2">
+	    		<p><img src="images/plan_lunch.gif" alt="ランチ"></p>
+	    		<h4><span>年末年始特別コース</span><br>年の締めくくりと始まり相応しい食材を使用したお料理をご堪能</h4>
+	    		<p class="reservation">予約する</p>
+				<button type="submit" onclick="window.open('https://hitosara.com/0006086840/')">ヒトサラ</button>
+				<button type="submit" onclick="window.open('https://restaurant.ikyu.com/101183/')">一休.com</button>
+				<span class="price">税込8,800円/人</span>
+			</div>
+			<div id="item4">
+	    		<p>＜ある日の一例＞</p>
+	    		<ul>
+	    			<li>本日のアミューズ</li>
+					<li>野菜や花、野草のサラダ 本日の魚介類と</li>
+					<li>温かい前菜</li>
+					<li>本日のお魚をフランスのエスプリで</li>
+					<li>本日のお肉料理をお選びいただきます。</li>
+					<li>エレガントな季節のデザート<br>又は<br>フランスの大地の香りチーズのプラトーミニャルディーズ</li>
+	    		</ul>
+	    		<p>※メニューは仕入状況等により変更となる場合がございます。予めご了承ください。</p>
+			</div>
+			<div id="item6">
+	    		<p>京都の野菜、丹後のお魚をはじめ日本、フランスの美味しい食材を、あふれる香とともに、美しい六皿に仕上げております。		</p>
+	    		<p>利用可能人数）１名～4名</p>
+			</div>
+    		<a class="js-modal-close" href="" id="item2"><img src="images/close.gif" alt="閉じる"></a>
+		</div><!--modal__content-->
+	</div><!--modal-->
+
+	<div id="modal04" class="modal js-modal">
+		<div class="modal__bg js-modal-close"></div><!--背景によるクリックで閉じる用-->
+		<div class="modal__content">
+    		<img id="item1" src="images/dinnermenu_01.jpg" alt="珠玉の六皿">
+			<div id="item2">
+	    		<p><img src="images/plan_dinner.gif" alt="ディナー"></p>
+	    		<h4><span>珠玉の六皿</span><br>京都の野菜、丹後のお魚をはじめ日本、フランスの美味しい食材をご堪能</h4>
+	    		<p class="reservation">予約する</p>
+				<button type="submit" onclick="window.open('https://hitosara.com/0006086840/')">ヒトサラ</button>
+				<button type="submit" onclick="window.open('https://restaurant.ikyu.com/101183/')">一休.com</button>
+				<span class="price">税込8,800円/人</span>
+			</div>
+			<div id="item4">
+	    		<p>＜ある日の一例＞</p>
+	    		<ul>
+	    			<li>本日のアミューズ</li>
+					<li>野菜や花、野草のサラダ 本日の魚介類と</li>
+					<li>温かい前菜</li>
+					<li>本日のお魚をフランスのエスプリで</li>
+					<li>本日のお肉料理をお選びいただきます。</li>
+					<li>エレガントな季節のデザート<br>又は<br>フランスの大地の香りチーズのプラトーミニャルディーズ</li>
+	    		</ul>
+	    		<p>※メニューは仕入状況等により変更となる場合がございます。予めご了承ください。</p>
+			</div>
+			<div id="item6">
+	    		<p>京都の野菜、丹後のお魚をはじめ日本、フランスの美味しい食材を、あふれる香とともに、美しい六皿に仕上げております。		</p>
+	    		<p>利用可能人数）１名～4名</p>
+			</div>
+    		<a class="js-modal-close" href="" id="item2"><img src="images/close.gif" alt="閉じる"></a>
+		</div><!--modal__content-->
+	</div><!--modal-->
+
+	<div id="modal05" class="modal js-modal">
+		<div class="modal__bg js-modal-close"></div><!--背景によるクリックで閉じる用-->
+		<div class="modal__content">
+    		<img id="item1" src="images/dinnermenu_02.jpg" alt="Xmas2019">
+			<div id="item2">
+	    		<p><img src="images/plan_dinner.gif" alt="ランチ"></p>
+	    		<h4><span>Xmas2019</span><br>聖なる夜にお愉しみ頂けるクリスマス特別ディナー ～Menu Plaisir～</h4>
+	    		<p class="reservation">予約する</p>
+				<button type="submit" onclick="window.open('https://hitosara.com/0006086840/')">ヒトサラ</button>
+				<button type="submit" onclick="window.open('https://restaurant.ikyu.com/101183/')">一休.com</button>
+				<span class="price">税込8,800円/人</span>
+			</div>
+			<div id="item4">
+	    		<p>＜ある日の一例＞</p>
+	    		<ul>
+	    			<li>本日のアミューズ</li>
+					<li>野菜や花、野草のサラダ 本日の魚介類と</li>
+					<li>温かい前菜</li>
+					<li>本日のお魚をフランスのエスプリで</li>
+					<li>本日のお肉料理をお選びいただきます。</li>
+					<li>エレガントな季節のデザート<br>又は<br>フランスの大地の香りチーズのプラトーミニャルディーズ</li>
+	    		</ul>
+	    		<p>※メニューは仕入状況等により変更となる場合がございます。予めご了承ください。</p>
+			</div>
+			<div id="item6">
+	    		<p>京都の野菜、丹後のお魚をはじめ日本、フランスの美味しい食材を、あふれる香とともに、美しい六皿に仕上げております。		</p>
+	    		<p>利用可能人数）１名～4名</p>
+			</div>
+    		<a class="js-modal-close" href="" id="item2"><img src="images/close.gif" alt="閉じる"></a>
+		</div><!--modal__content-->
+	</div><!--modal-->
+
+	<div id="modal06" class="modal js-modal">
+		<div class="modal__bg js-modal-close"></div><!--背景によるクリックで閉じる用-->
+		<div class="modal__content">
+    		<img id="item1" src="images/dinnermenu_03.jpg" alt="年末年始特別コース">
+			<div id="item2">
+	    		<p><img src="images/plan_dinner.gif" alt="ランチ"></p>
+	    		<h4><span>年末年始特別コース</span><br>年の締めくくりと始まり相応しい食材を使用したお料理をご堪能</h4>
+	    		<p class="reservation">予約する</p>
+				<button type="submit" onclick="window.open('https://hitosara.com/0006086840/')">ヒトサラ</button>
+				<button type="submit" onclick="window.open('https://restaurant.ikyu.com/101183/')">一休.com</button>
+				<span class="price">税込8,800円/人</span>
+			</div>
+			<div id="item4">
+	    		<p>＜ある日の一例＞</p>
+	    		<ul>
+	    			<li>本日のアミューズ</li>
+					<li>野菜や花、野草のサラダ 本日の魚介類と</li>
+					<li>温かい前菜</li>
+					<li>本日のお魚をフランスのエスプリで</li>
+					<li>本日のお肉料理をお選びいただきます。</li>
+					<li>エレガントな季節のデザート<br>又は<br>フランスの大地の香りチーズのプラトーミニャルディーズ</li>
+	    		</ul>
+	    		<p>※メニューは仕入状況等により変更となる場合がございます。予めご了承ください。</p>
+			</div>
+			<div id="item6">
+	    		<p>京都の野菜、丹後のお魚をはじめ日本、フランスの美味しい食材を、あふれる香とともに、美しい六皿に仕上げております。		</p>
+	    		<p>利用可能人数）１名～4名</p>
+			</div>
+    		<a class="js-modal-close" href="" id="item2"><img src="images/close.gif" alt="閉じる"></a>
+		</div><!--modal__content-->
+	</div><!--modal-->
+
+<footer>
+	<div id="footer_left">
+		<h1><a href="index.html"><img src="images/rogofooter.gif" alt="rogo"></a></h1>
+		<p>住所京都府京都市左京区田中里ノ前町59</p>
+		<p>営業時間<br>
+		昼11:30～15:30(14:30)<br>
+		夜17:30～(21:30)</p>
+	</div><!-- /footer_left-->
+
+	<div id="footer_right">
+
+		<p class="reservation">《ご予約はこちら》</p>
+
+		<div id="internet">
+			<p>インターネットからのご予約</p>
+			<form>
+			<ul>
+				<li><button class="hitosara" type="submit" onclick="window.open('https://hitosara.com/0006086840/')">ヒトサラ</button></li>
+				<li><button class="ikyu" type="submit" onclick="window.open('https://restaurant.ikyu.com/101183/')">一休.com</button></li>
+			</ul>
+			</form>
+			<p>※外部サイトにとびます</p>		
+		</div><!-- /internet-->
+
+		<div id="tel">
+			<p>お電話からのご予約</p>
+			<ul>
+				<li><button class="reservation_tel" type="submit">予約専用 050-5232-4429</button></li>
+				<li><button class="contact_tel" type="submit">お問い合わせ 075-711-7643</button></li>
+			</ul>
+
+		</div><!-- /tel-->
+	</div><!-- /footer_right-->
+
+	<p class="copyright">&copy;2019halosaka.comAllRightsReserved</p>
+</footer>
+<script type="text/javascript">
+$(function(){
+    $('.js-modal-open').each(function(){
+        $(this).on('click',function(){
+            var target = $(this).data('target');
+            var modal = document.getElementById(target);
+            $(modal).fadeIn();
+            return false;
+        });
+    });
+    $('.js-modal-close').on('click',function(){
+        $('.js-modal').fadeOut();
+        return false;
+    }); 
+});
+</script>
+</body>
+</html>

@@ -321,6 +321,8 @@ h2 img{
 		transition:transform .3s;
 		width: 100%;
 	}
+
+
 	#spHeader .menu__line--center{
 		top: 9px;
 	}
@@ -350,6 +352,7 @@ h2 img{
 		z-index: 98;
 		box-sizing: border-box;
 		padding-top: 10vh;
+		
 	}
 	#spHeader .gnav__wrap{
 		/* align-items:center; */
@@ -358,6 +361,7 @@ h2 img{
 		justify-content: center;
 		position: absolute;
 		width: 100%;
+
 	}
 	#spHeader .gnav__menu{
 		margin-bottom: 3em;

@@ -3,17 +3,82 @@
 <meta charset="UTF-8" />
 <head>
 	<title>LaPartDieu menu</title>
-	<link rel="stylesheet" type="text/css" href="css/menu.css">
 	<link rel="stylesheet" type="text/css" href="css/header.css">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<link rel="stylesheet" type="text/css" href="css/menu.css">
+	<link rel="stylesheet" type="text/css" href="css/common.css"><!--追記-->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Cookie|Noto+Serif+JP&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
 	<script src="js/jQuery-3.4.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<link href="js/slick-1.8.1/slick/slick-theme.css" rel="stylesheet" type="text/css">
+	<link href="js/slick-1.8.1/slick/slick.css" rel="stylesheet" type="text/css">
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="js/slick-1.8.1/slick/slick.min.js"></script>
+	<script type="text/javascript" src="js/bgSwitcher.js"></script>
 
 </head>
 <body>
 	<header>
 		<h1><a href="index.html"><img src="images/rogoheader.gif" alt="LaPartDieu"></a></h1>
+		<!-- <div class="inner clearfix">
+			<div id="nav_toggle">
+			  <div>
+				<span></span>
+				<span></span>
+				<span></span>
+			  </div>
+			</div>
+			<nav>
+			  <ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="menu.html">Menu</a></li>
+				<li><a href="access.html">Access</a></li>
+				<li><a href="#">MENU5</a></li>
+			  </ul>
+			</nav>
+		  </div> -->
+		  <div id="spHeader">
+			<a class="menu">
+				<span class="menu__line menu__line--top"></span>
+				<span class="menu__line menu__line--center"></span>
+				<span class="menu__line menu__line--bottom"></span>
+			</a>
+			<nav class="gnav">
+				<div class="gnav__wrap">
+					<ul class="gnav__menu">
+						<li class="gnav__menu__item"><a href="index.html">Home</a></li>
+						<li class="gnav__menu__item"><a href="about.html">About</a></li>
+						<li class="gnav__menu__item"><a href="menu.html">Menu</a></li>
+						<li class="gnav__menu__item"><a href="access.html">Access</a></li>
+						<li class="gnav__menu__item"><a href="https://www.facebook.com/lapartdieu.kyoto/" target="_blank"><img src="images/icon.gif" alt="Facebook"></a></li>
+					</ul>
+					<div id="spContact">
+						<div id="spInter">
+							<p>■＊■ インターネットからのご予約 ■＊■</p>
+							<p>-外部サイトへアクセスします-</p>
+							<ul>
+								<li><button class="hitosara" type="submit" onclick="window.open('https://hitosara.com/0006086840/')">ヒトサラ</button></li>
+								<li><button class="ikyu" type="submit" onclick="window.open('https://restaurant.ikyu.com/101183/')">一休.com</button></li>
+							</ul>
+						</div><!-- /spinter-->
+						<div id="spTel">
+							<p>■＊■ お電話からのご予約 ■＊■</p>
+							<ul>
+								<li><button class="reservation_tel" type="submit"><span>予約専用</span> 050-5232-4429</button></li>
+								<li><button class="contact_tel" type="submit"><span>お問い合わせ</span> 075-711-7643</button></li>
+							</ul>
+						</div><!--spInter-->
+					</div><!--spContact-->
+				</div><!--gnav-wrap-->
+			</nav>
+			<div class="hero">
+				<h1 class="heroCopy"><img src="images/menu_txt_07.png"></h1>
+			</div>
+			<div class="heroLogo"></div>
+
+		  </div><!--spHeader-->
 		<ul>
 			<li><a href="index.html">Home</a></li>
 			<li><a href="about.html">About</a></li>
@@ -22,8 +87,8 @@
 			<span class="facebook"><li><a href="https://www.facebook.com/lapartdieu.kyoto/" target="_blank"><img src="images/icon.gif" alt="Facebook"></a></li></span>
 		</ul>	
 	</header><!-- /header -->
-
-	<h2><img src="images/menu_mainvisual.jpg" alt="mainvisual"></h2>
+<div id="all_contents">
+	<h2 class="mainvisual"><img src="images/menu_mainvisual.jpg" alt="mainvisual"></h2>
 
 	<div id="contents_lunch">
 
@@ -101,11 +166,14 @@
 			</li>
 		</ul>
 	</div><!--contents_dinner-->
+</div><!--all_contents-->
 	<!--ここからモーダルウィンドウ-->
 	<div id="modal01" class="modal js-modal">
 		<div class="modal__bg js-modal-close"></div><!--背景によるクリックで閉じる用-->
 		<div class="modal__content">
-    		<img id="item1" src="images/lunchmenu_01.jpg" alt="季節のコース">
+			<div class="item1">
+				<img id="item_img" src="images/lunchmenu_01.jpg" alt="季節のコース">
+			</div>
 			<div id="item2">
 	    		<p><img src="images/plan_lunch.gif" alt="ランチ"></p>
 	    		<h4><span>季節のコース</span><br>
@@ -113,7 +181,7 @@
 	    		<p class="reservation">予約する</p>
 				<button type="submit" onclick="window.open('https://hitosara.com/0006086840/')">ヒトサラ</button>
 				<button type="submit" onclick="window.open('https://restaurant.ikyu.com/101183/')">一休.com</button>
-				<span class="price">8,800円/人</span>
+				<span class="price">税込8,800円/人</span>
 			</div>
 			<div id="item4">
 	    		<p>＜ある日の一例＞</p>
@@ -138,14 +206,16 @@
 	<div id="modal02" class="modal js-modal">
 		<div class="modal__bg js-modal-close"></div><!--背景によるクリックで閉じる用-->
 		<div class="modal__content">
-    		<img id="item1" src="images/lunchmenu_02.jpg" alt="年末年始コース">
+			<div class="item1">
+			<img id="item_img" src="images/lunchmenu_02.jpg" alt="年末年始コース">
+		</div>
 			<div id="item2">
 	    		<p><img src="images/plan_lunch.gif" alt="ランチ"></p>
 	    		<h4><span>年末年始コース</span><br>年の締めくくりと始まりに相応しい食材を味わえる至福のひと時に</h4>
 	    		<p class="reservation">予約する</p>
 				<button type="submit" onclick="window.open('https://hitosara.com/0006086840/')">ヒトサラ</button>
 				<button type="submit" onclick="window.open('https://restaurant.ikyu.com/101183/')">一休.com</button>
-				<span class="price">8,800円/人</span>
+				<span class="price">税込8,800円/人</span>
 			</div>
 			<div id="item4">
 	    		<p>＜ある日の一例＞</p>
@@ -170,14 +240,16 @@
 	<div id="modal03" class="modal js-modal">
 		<div class="modal__bg js-modal-close"></div><!--背景によるクリックで閉じる用-->
 		<div class="modal__content">
-    		<img id="item1" src="images/lunchmenu_03.jpg" alt="年末年始特別コース">
+			<div class="item1">
+				<img id="item_img" src="images/lunchmenu_03.jpg" alt="年末年始特別コース">
+			</div>
 			<div id="item2">
 	    		<p><img src="images/plan_lunch.gif" alt="ランチ"></p>
 	    		<h4><span>年末年始特別コース</span><br>年の締めくくりと始まり相応しい食材を使用したお料理をご堪能</h4>
 	    		<p class="reservation">予約する</p>
 				<button type="submit" onclick="window.open('https://hitosara.com/0006086840/')">ヒトサラ</button>
 				<button type="submit" onclick="window.open('https://restaurant.ikyu.com/101183/')">一休.com</button>
-				<span class="price">8,800円/人</span>
+				<span class="price">税込8,800円/人</span>
 			</div>
 			<div id="item4">
 	    		<p>＜ある日の一例＞</p>
@@ -202,14 +274,16 @@
 	<div id="modal04" class="modal js-modal">
 		<div class="modal__bg js-modal-close"></div><!--背景によるクリックで閉じる用-->
 		<div class="modal__content">
-    		<img id="item1" src="images/dinnermenu_01.jpg" alt="珠玉の六皿">
+			<div class="item1">
+				<img id="item_img" src="images/dinnermenu_01.jpg" alt="珠玉の六皿">
+			</div>
 			<div id="item2">
 	    		<p><img src="images/plan_dinner.gif" alt="ディナー"></p>
 	    		<h4><span>珠玉の六皿</span><br>京都の野菜、丹後のお魚をはじめ日本、フランスの美味しい食材をご堪能</h4>
 	    		<p class="reservation">予約する</p>
 				<button type="submit" onclick="window.open('https://hitosara.com/0006086840/')">ヒトサラ</button>
 				<button type="submit" onclick="window.open('https://restaurant.ikyu.com/101183/')">一休.com</button>
-				<span class="price">8,800円/人</span>
+				<span class="price">税込8,800円/人</span>
 			</div>
 			<div id="item4">
 	    		<p>＜ある日の一例＞</p>
@@ -234,14 +308,16 @@
 	<div id="modal05" class="modal js-modal">
 		<div class="modal__bg js-modal-close"></div><!--背景によるクリックで閉じる用-->
 		<div class="modal__content">
-    		<img id="item1" src="images/dinnermenu_02.jpg" alt="Xmas2019">
+			<div class="item1">
+			<img id="item_img" src="images/dinnermenu_02.jpg" alt="Xmas2019">
+			</div>
 			<div id="item2">
 	    		<p><img src="images/plan_dinner.gif" alt="ランチ"></p>
 	    		<h4><span>Xmas2019</span><br>聖なる夜にお愉しみ頂けるクリスマス特別ディナー ～Menu Plaisir～</h4>
 	    		<p class="reservation">予約する</p>
 				<button type="submit" onclick="window.open('https://hitosara.com/0006086840/')">ヒトサラ</button>
 				<button type="submit" onclick="window.open('https://restaurant.ikyu.com/101183/')">一休.com</button>
-				<span class="price">8,800円/人</span>
+				<span class="price">税込8,800円/人</span>
 			</div>
 			<div id="item4">
 	    		<p>＜ある日の一例＞</p>
@@ -266,14 +342,16 @@
 	<div id="modal06" class="modal js-modal">
 		<div class="modal__bg js-modal-close"></div><!--背景によるクリックで閉じる用-->
 		<div class="modal__content">
-    		<img id="item1" src="images/dinnermenu_03.jpg" alt="年末年始特別コース">
+			<div class="item1">
+			<img id="item_img" src="images/dinnermenu_03.jpg" alt="年末年始特別コース">
+			</div>
 			<div id="item2">
 	    		<p><img src="images/plan_dinner.gif" alt="ランチ"></p>
 	    		<h4><span>年末年始特別コース</span><br>年の締めくくりと始まり相応しい食材を使用したお料理をご堪能</h4>
 	    		<p class="reservation">予約する</p>
 				<button type="submit" onclick="window.open('https://hitosara.com/0006086840/')">ヒトサラ</button>
 				<button type="submit" onclick="window.open('https://restaurant.ikyu.com/101183/')">一休.com</button>
-				<span class="price">8,800円/人</span>
+				<span class="price">税込8,800円/人</span>
 			</div>
 			<div id="item4">
 	    		<p>＜ある日の一例＞</p>
@@ -316,7 +394,7 @@
 				<li><button class="ikyu" type="submit" onclick="window.open('https://restaurant.ikyu.com/101183/')">一休.com</button></li>
 			</ul>
 			</form>
-			<p>※外部サイトにとびます</p>		
+			<p>※外部サイトにとびます</p>
 		</div><!-- /internet-->
 
 		<div id="tel">
@@ -346,6 +424,16 @@ $(function(){
         return false;
     }); 
 });
+
+	
+	//ハンバーガー海兵
+	console.log("menu")
+	$('#spHeader .menu').on('click',function(){
+		$('#spHeader .menu__line').toggleClass('active');
+		$('#spHeader .gnav').fadeToggle();
+	});
+
 </script>
+
 </body>
 </html>

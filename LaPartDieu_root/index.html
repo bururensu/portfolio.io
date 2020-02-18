@@ -49,7 +49,7 @@
 					<ul class="gnav__menu">
 						<li class="gnav__menu__item"><a href="index.html">Home</a></li>
 						<li class="gnav__menu__item"><a href="about.html">About</a></li>
-						<li class="gnav__menu__item"><a href="menu.htmk">Menu</a></li>
+						<li class="gnav__menu__item"><a href="menu.html">Menu</a></li>
 						<li class="gnav__menu__item"><a href="access.html">Access</a></li>
 						<li class="gnav__menu__item"><a href="https://www.facebook.com/lapartdieu.kyoto/" target="_blank"><img src="images/icon.gif" alt="Facebook"></a></li>
 					</ul>
@@ -131,7 +131,7 @@
 			<div id="access_link">
 				<p class="access_txt">凛とした美しさとミントグリーンの<br>可愛らしさ溢れる趣き</p>
 				<p class="access_subTxt">大切な会話に花が咲く。美味しく、愛おしく感じられるひと時。ぜひ、当店にお越しくださいませ。一同、お待ちしています。</p>
-				<a href="access.html"><img src="images/access_btn.gif" alt="accesslink"><span>about Us</span></a>	
+				<a href="access.html"><img src="images/access_btn.gif" alt="accesslink"><span>Access Us</span></a>	
 			</div><!--access_link-->
 		</div><!-- /contents_access-->
 	</div><!-- /all_contents-->
@@ -202,6 +202,28 @@
 			$('#spHeader .menu__line').toggleClass('active');
 			$('#spHeader .gnav').fadeToggle();
 		});
+
+		// $(function(){
+		// 	if ($('#spHeader .menu__line').toggleClass('active')) {
+		// 		console.log("true");
+		// 		$('#spHeader .menu').on('click',function(){
+		// 			$('#spHeader .menu__line').css({
+		// 				'background-color':"#fff"
+		// 				});				
+		// 			});
+		// 	}else{
+		// 		$('#spHeader .menu').on('click',function(){
+		// 			$('#spHeader .menu__line').css({
+		// 				'background-color':"#015604"
+		// 				});				
+		// 			});
+		// 	}//if
+
+		//});クリック時にbackground―colorを変えたかった
+
+		// $('#spHeader .menu__line').on('click',function(){
+		// 	$(this).css("bgColor","red")
+		// })
 		//spHeader背景画像スライド
 		jQuery(function($) {
 			$('#spHeader .hero').bgSwitcher({

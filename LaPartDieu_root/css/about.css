@@ -58,7 +58,8 @@ h2 img{
 #contents1_txt{
 	float: right;
 	margin-top: 60px;
-	background-color: #165330;
+	/* background-color: #165330; */
+	background-color:rgba(22, 83, 48, 1);
 	padding: 156px 47px 200px 515px;
 	text-align: right;
 }
@@ -83,7 +84,8 @@ h2 img{
 #contents2_txt{
 	float: left;
 	margin-top: 60px;
-	background-color: #165330;
+	/* background-color: #165330; */
+	background-color:rgba(22, 83, 48, 1);
 	padding: 156px 515px 220px 35px;
 	text-align: left;
 }
@@ -108,7 +110,8 @@ h2 img{
 #contents3_txt{
 	float: right;
 	margin-top: 60px;
-	background-color: #165330;
+	/* background-color: #165330; */
+	background-color:rgba(22, 83, 48, 1);
 	padding: 156px 47px 200px 515px;
 	text-align: right;
 }
@@ -133,7 +136,8 @@ h2 img{
 #contents4_txt{
 	float: left;
 	margin-top: 60px;
-	background-color: #165330;
+	/* background-color: #165330; */
+	background-color:rgba(22, 83, 48, 1);
 	padding: 156px 445px 251px 35px;
 	text-align: left;
 }
@@ -142,12 +146,23 @@ h2 img{
 	display: none;
 }
 
+.contents2_txt_span_sub,
+.contents4_txt_span_sub{
+	display: none;
+}
+
 
 @media screen and (max-width: 559px) {
 
+	h2 img{
+		margin: 0;
+		margin-bottom: 30%;
+	}
 
-
-
+	#all_contents p,
+	#all_contents span{
+		color: #000;
+	}
 
 	#contents1,
 	#contents2,
@@ -156,20 +171,42 @@ h2 img{
 		width: 95%;
 		margin: 0 auto;
 		margin-left: 10px;
+		/* height: 100vh; */
+		position: relative;
 	}
 
 	#contents1_txt,
 	#contents2_txt,
 	#contents3_txt,
 	#contents4_txt {
-		margin: 0 auto;
-		padding: 70% 0 10% 0;
+		margin: 60% auto 10% auto;
+		padding: 10% 3% ;
 		float: none;
 		text-align: left;
-		margin-bottom: 10%;
-
+		background-color:rgba(22, 83, 48, 0);
+		color: #000;
 	}
 
+	#contents1_txt span,
+	#contents2_txt span,
+	#contents3_txt span,
+	#contents4_txt span {
+		width: 100%;
+		font-size:1.2em;
+		text-align: center;
+		display: block;
+	}
+	#contents2_txt .contents2_txt_span_sub,
+	#contents4_txt .contents4_txt_span_sub{
+		display: block;
+		width: 100%;
+		font-size:1.2em;
+		text-align: center;
+	}
+	#contents2_txt span,
+	#contents4_txt span{
+		display: none;
+	}
 
 	#all_contents h2{
 		z-index: 1;
@@ -177,8 +214,19 @@ h2 img{
 
 	#all_contents p{
 		width: 100%;
+		font-size: 0.8em;
 	}
 
+	#contents1 img,
+	#contents2 img,
+	#contents3 img,
+	#contents4 img{
+		border: solid 6px #8e7501;
+		box-sizing: border-box;
+		box-shadow: 0px 0px 5px gray;
+	}
+
+	/*hamburger*/
 
 
 
@@ -297,7 +345,8 @@ h2 img{
 	}
 
 	#spHeader .hero{
-		background:url(../images/about_02.jpg) no-repeat;
+		background:url(../images/about_02.jpg) no-repeat;/*header背景画像検索用：bacdground-image*/
+		/* background-position: 70% 50%; */
 		background-position: 70% 50%;
 		background-size: cover;
 		height: 88vh;
@@ -337,7 +386,7 @@ h2 img{
 		width: 65%;
 		position: absolute;
 		top: 39%;
-		right: 3%;
+		left: -8%;
 	}
 	#spContact #spInter .hitosara,
 	#spContact #spInter .ikyu,
