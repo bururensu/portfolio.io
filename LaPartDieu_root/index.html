@@ -60,7 +60,7 @@
 							<ul>
 								<li><button class="hitosara" type="submit" onclick="window.open('https://hitosara.com/0006086840/')">ヒトサラ</button></li>
 								<li><button class="ikyu" type="submit" onclick="window.open('https://restaurant.ikyu.com/101183/')">一休.com</button></li>
-							</ul>		
+							</ul>
 						</div><!-- /spinter-->
 						<div id="spTel">
 							<p>■＊■ お電話からのご予約 ■＊■</p>
@@ -77,22 +77,22 @@
 			</div>
 			<div class="heroLogo"></div>
 
-		  </div><!--spHeader-->
+		</div><!--spHeader-->
 		<ul>
 			<li><a href="index.html">Home</a></li>
 			<li><a href="about.html">About</a></li>
 			<li><a href="menu.html">Menu</a></li>
 			<li><a href="access.html">Access</a></li>
 			<span class="facebook"><li><a href="https://www.facebook.com/lapartdieu.kyoto/" target="_blank"><img src="images/icon.gif" alt="Facebook"></a></li></span>
-		</ul>	
+		</ul>
 	</header><!-- /header -->
 
 <div id="all_contents">
 		<h2>
 			<ul class="mainvisual">
+				<li><img src="images/mainvisual.jpg" alt="mainvisual"></li>
 	    		<li><img src="images\firstview_01.jpg" alt="firstview_01"></li>
 	    		<li><img src="images\firstview_02.jpg" alt="firstview_02"></li>
-				<li><img src="images/mainvisual.jpg" alt="mainvisual"></li>
 	    		<li><img src="images\firstview_03.jpg" alt="firstview_03"></li>
 			</ul>
 			<!--firstViewは一旦非適応-->
@@ -111,7 +111,7 @@
 				<p class="about_txt">フランスの首都パリのような素敵な店内で<br>至福の時間を</p>
 				<p class="about_txt_sub">フランスの首都パリのような<br>素敵な店内で至福の時間を</p>
 				<p class="about_subTxt">卓越された技術を駆使した現代的フランス料理。シェフの独自の観点で生み出される、逸品をご提供します。</p>
-				<a href="about.html"><img src="images/about_btn.gif" alt="aboutlink"><span>about La Part Diew</span></a>	
+				<a href="about.html"><img src="images/about_btn.gif" alt="aboutlink"><span>about La Part Diew</span></a>
 			</div><!--about_link-->
 		</div><!-- /contents_about-->
 
@@ -121,7 +121,7 @@
 				<p class="menu_txt">四季折々の味覚を凝縮した品々をフルコースで<br>お楽しみください</p>
 				<p class="menu_txt_sub">四季折々の味覚を凝縮した品々を<br>フルコースでお楽しみください</p>
 				<p class="menu_subTxt">あなたのペースでゆったりとした時間を愉しむことができる上質な空間で、大切な時間をお過ごしください。</p>
-				<a href="menu.html"><img src="images/menu_btn.gif" alt="menulink"><span>to Menu</span></a>	
+				<a href="menu.html"><img src="images/menu_btn.gif" alt="menulink"><span>to Menu</span></a>
 			</div><!--menu_link-->
 			<p class="menu_img"><img src="images/menu_img.jpg" alt="menu写真"></p>
 		</div><!-- /contents_menu-->
@@ -131,7 +131,7 @@
 			<div id="access_link">
 				<p class="access_txt">凛とした美しさとミントグリーンの<br>可愛らしさ溢れる趣き</p>
 				<p class="access_subTxt">大切な会話に花が咲く。美味しく、愛おしく感じられるひと時。ぜひ、当店にお越しくださいませ。一同、お待ちしています。</p>
-				<a href="access.html"><img src="images/access_btn.gif" alt="accesslink"><span>Access Us</span></a>	
+				<a href="access.html"><img src="images/access_btn.gif" alt="accesslink"><span>Access Us</span></a>
 			</div><!--access_link-->
 		</div><!-- /contents_access-->
 	</div><!-- /all_contents-->
@@ -175,18 +175,19 @@
 
 		//firstViewのスライドは一旦非適応（htmlも非適応化）
 		/*firstview*/
-		// console.log("test");
-		// $('.slider').slick({
-		//     autoplay:true,
-		//     autoplaySpeed:2000,
-		//     fade:true,
-		// });
-		// function fadeout(){
-		// 	$(".firstview").fadeOut(1000,function(){
-		// 		console.log('消えたよ！');
-		// 	});
-		// } 
-		// time = setTimeout(fadeout,3200);
+		console.log("test");
+		$('.slider').slick({
+		autoplay:true,
+		autoplaySpeed:2000,
+		fade:true,
+		});
+
+			// function fadeout(){
+			// $(".firstview").fadeOut(1000,function(){
+			// 		console.log('消えたよ！');
+			// 	});
+			// }
+			// time = setTimeout(fadeout,6200);
 
 		/*mainvisual*/
 		$('.mainvisual').slick({
@@ -195,7 +196,7 @@
 			speed:1800,
 			fade:true,
 		});
-		
+
 		//ハンバーガー海兵
 		console.log("menu")
 		$('#spHeader .menu').on('click',function(){
@@ -209,13 +210,13 @@
 		// 		$('#spHeader .menu').on('click',function(){
 		// 			$('#spHeader .menu__line').css({
 		// 				'background-color':"#fff"
-		// 				});				
+		// 				});
 		// 			});
 		// 	}else{
 		// 		$('#spHeader .menu').on('click',function(){
 		// 			$('#spHeader .menu__line').css({
 		// 				'background-color':"#015604"
-		// 				});				
+		// 				});
 		// 			});
 		// 	}//if
 

@@ -5,6 +5,7 @@ footer{
 	margin: 0 auto;
 	padding: 0 ;
 	height: 365px;
+	overflow-x: hidden;
 }
 
 .footer_inner{
