@@ -250,7 +250,7 @@ h2 img{
 		letter-spacing: 0.2em;
 		text-align: center;
 	}
-	
+
 	/*menu*/
 
 	header{
@@ -347,14 +347,14 @@ h2 img{
 	#spHeader .hero{
 		background:url(../images/about_02.jpg) no-repeat;/*header背景画像検索用：bacdground-image*/
 		/* background-position: 70% 50%; */
-		background-position: 70% 50%;
+		background-position: 72% 50%;
 		background-size: cover;
 		height: 88vh;
 		border-bottom: solid 4px #d2c83e;
-   		box-shadow: 0 1em 2em white;
+		box-shadow: 0 1em 2em white;
 	}
 
-	
+
 	#spHeader .heroLogo{
 		display: block;
 		content: "";
@@ -385,7 +385,7 @@ h2 img{
 		display: block;
 		width: 65%;
 		position: absolute;
-		top: 39%;
+		top: 28%;
 		left: -8%;
 	}
 	#spContact #spInter .hitosara,
