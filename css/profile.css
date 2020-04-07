@@ -9,17 +9,17 @@
 	color: #000;
 } */
 
- #profile p{
+#profile p{
 	font-family: dnp-shuei-gothic-gin-std, sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	color: #000;
-} 
+}
 
 #profile h2{
 	font-family: dnp-shuei-gothic-gin-std, sans-serif;
 	font-weight: 400;
-	font-style: normal;	
+	font-style: normal;
 	color: black;
 }
 
@@ -31,7 +31,7 @@
 #profile #face{
 	float: left;
 	clear: both;
-	margin: 33px 20px 65px 23px;
+	margin: 33px 0px 65px 23px;
 }
 
 #profile #face p{
@@ -50,9 +50,9 @@
 	float: left;
 	padding: 90px 0px 0px 80px;
 	line-height: 1.7em;
-	margin: -16px;
+	margin: -20px;
 }
-/* 
+/*
 #profile #skill #maskingrigth_bg{
 	background-image: url(../images/maskingright_bg.png);
 	background-repeat: no-repeat;

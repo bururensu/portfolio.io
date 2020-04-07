@@ -49,3 +49,14 @@ header #navi li a{
 	color: #000;
 
 }
+
+@media screen and (max-width: 559px) {
+
+	header{
+		display: none;
+	}
+
+
+
+}
+
