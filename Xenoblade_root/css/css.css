@@ -5,6 +5,7 @@ img{
 #wrapper {
     background-color: #121212;
     color: rgba(255, 255, 255, 0.904);
+    /* padding-bottom: 8%; */
     /* position: relative; */
 }
 
@@ -175,6 +176,7 @@ nav a{
 footer{
     text-align: center;
     width: 100%;
+    margin-top: 8%;
     height: auto;
 }
 
