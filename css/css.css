@@ -83,7 +83,7 @@ p{
 	font-style: normal;
 	font-size: 12em; */
 	position: absolute;
-	top: 50%;
+	top:57%;
 	left: 50%;
 	transform: translateY(-70%) translateX(-50%) rotate(-10deg);
 	/* -webkit- transform: translateY(-50%) translateX(-50%); */
@@ -115,11 +115,33 @@ p{
 	margin-left: 10%;
 }
 
-#index li :hover .profile{
+/* #index li :hover .profile{
 	background:rgba(0, 0, 0,0) linear-gradient(transparent 60%, #f12027 0%) repeat scroll 0 0;
+} */
+
+/*ホバーアニメーション*/
+
+#index li{
+	display:inline-block;
+	position:relative;
+	cursor:pointer
 }
-
-
+#index li::after{
+	content:'';
+	position:absolute;
+	width:100%;
+	transform:scaleX(0);
+	height:10px;
+	bottom:0;
+	left:0;
+	background-color:#f12027;
+	transform-origin:bottom right;
+	transition:transform .4s cubic-bezier(.86,0,.07,1)
+}
+#index li:hover::after{
+	transform:scaleX(1);
+	transform-origin:bottom left
+}
 
 
 #index #paint_bg{
@@ -216,8 +238,31 @@ p{
     position: relative;
 }
 
-#profile li :hover {
+/* #profile li :hover {
 	background:rgba(0, 0, 0,0) linear-gradient(transparent 60%, #4e38c2 0%) repeat scroll 0 0;
+} */
+
+#profile #saka2 span{
+	display:inline-block;
+	position:relative;
+	cursor:pointer;
+}
+
+#profile #saka2 span::after{
+	content:'';
+	position:absolute;
+	width:100%;
+	transform:scaleX(0);
+	height:10px;
+	bottom:0;
+	left:0;
+	background-color:#4e38c2;
+	transform-origin:bottom right;
+	transition:transform .4s cubic-bezier(.86,0,.07,1)
+}
+#profile #saka2 span:hover::after{
+	transform:scaleX(1);
+	transform-origin:bottom left
 }
 
 
@@ -306,9 +351,33 @@ p{
 }
 
 
-#work li :hover {
+/* #work li :hover {
 	background:rgba(0, 0, 0,0) linear-gradient(transparent 60%, #ef4a0b 0%) repeat scroll 0 0;
+} */
+
+#work #saka3 span{
+	display:inline-block;
+	position:relative;
+	cursor:pointer;
 }
+
+#work #saka3 span::after{
+	content:'';
+	position:absolute;
+	width:100%;
+	transform:scaleX(0);
+	height:10px;
+	bottom:0;
+	left:0;
+	background-color:#ef4a0b;
+	transform-origin:bottom right;
+	transition:transform .4s cubic-bezier(.86,0,.07,1)
+}
+#work #saka3 span:hover::after{
+	transform:scaleX(1);
+	transform-origin:bottom left
+}
+
 
 #work #all_contets{
 	margin: 0 auto;
@@ -434,9 +503,33 @@ p{
 	line-height: 1.8em;
 }
 
-#contact li :hover {
+/* #contact li :hover {
 	background:rgba(0, 0, 0,0) linear-gradient(transparent 60%, #4e38c2 0%) repeat scroll 0 0;
+} */
+
+#contact #saka4 span{
+	display:inline-block;
+	position:relative;
+	cursor:pointer;
 }
+
+#contact #saka4 span::after{
+	content:'';
+	position:absolute;
+	width:100%;
+	transform:scaleX(0);
+	height:10px;
+	bottom:0;
+	left:0;
+	background-color:#4e38c2;
+	transform-origin:bottom right;
+	transition:transform .4s cubic-bezier(.86,0,.07,1)
+}
+#contact #saka4 span:hover::after{
+	transform:scaleX(1);
+	transform-origin:bottom left
+}
+
 
 @media screen and (max-width:480px){
 
@@ -501,7 +594,7 @@ p{
 	#profile #skill li{
 		margin-right: 5%;
 	}
-	
+
 
 	#work #all_contets{
 		display: block;
